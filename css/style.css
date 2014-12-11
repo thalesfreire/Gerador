@@ -1,0 +1,379 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* General */
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 0.8em;
+    height: 100%;
+}
+input, select {
+    font-size: 11px;
+}
+input {
+    padding: 1px;
+}
+p {
+    line-height: 1.3;
+    margin-bottom: 15px;
+	font-size: 12px;
+	
+}
+a {
+   	color: #006699;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #006699;
+    text-decoration: underline;
+}
+
+h2, .TitleHeading {
+    font-size: 1.8em;
+    font-weight: normal;
+    margin: 16px 0 6px 0;
+    font-style: bold;
+    width: 100%;
+	color: #006699;
+}
+h3 {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 16px 0 6px 0;
+    width: 100%;
+	color: #006699;
+}
+h4 {
+    font-size: 1.1em;
+    margin-bottom: 4px;
+	color: #8fd7f4;
+}
+img, img a {
+    border: 0;
+}
+ul, ol {
+    margin: 0 0 10px 30px;
+}
+li {
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 0;
+}
+
+/* Page Container */
+#Container {
+    width: 978px;
+    margin: 0 auto;
+}
+
+
+
+
+/* Primary Content Area */
+.Content {
+    float: left;
+    width: 100%;
+    /*min-height: 500px;*/
+    margin: 0;
+    padding: 0 0 10px 0;
+    margin-left: 0;
+}
+
+
+
+
+table {
+	width: 100%;
+	padding: 10px;
+}
+
+th {
+	font-size: 12px;
+	font-weight:bold;
+	background-color:#999999;
+	padding: 5px;
+	
+}
+
+td {
+	font-size: 12px;
+	font-weight:normal;
+	padding: 5px;
+	text-align:center;
+	border:solid;
+	border-width:1px;
+	border-color:#999999;
+}
+
+
+p.name input { background:  url(../images/name.png) 8px 8px no-repeat; color:#999999;}
+p.email input { background:  url(../images/email.png) 8px 8px no-repeat; color:#999999;}
+p.telefone input { background:  url(../images/telefone.png) 8px 8px no-repeat; color:#999999;}
+p.cidade input { background:  url(../images/cidade.png) 8px 8px no-repeat; color:#999999;}
+
+/* Form */
+
+.inputFormContato{
+	color: #000; 
+	display: block; 
+	font-size: 12px; 
+	height: 41px; 
+	margin: 5px 0; 
+	padding: 0 0 0 50px; 
+	width: 426px; 
+	border: solid; 
+	border-width:1px; 
+	border-color:#999999;
+	vertical-align:middle;
+}
+
+.textareaFormContato { 
+	height: 165px; 
+	padding: 15px 0 0 15px; 
+	width: 949px; 
+	overflow: auto;
+	border: solid; 
+	border-width:1px;  
+	border-color:#999999;
+	margin: 5px 0 0 0;
+}
+
+form p { float: left; margin: 0 10px 5px 0; padding-left: 12px;}
+
+
+form p input[type="button"], p input[type="submit"] {
+    margin-top: 10px;
+	padding: 5px;
+	border:solid;
+	border-width: 1px;
+	border-color:#999999;
+	width: 100px;
+}
+
+form p input[type="button"]:hover, p input[type="submit"]:hover {
+	background-color:#999999;
+}
+
+form p label { float: left; padding-top: 10px; color:#999999;}
+form p select {  
+	border: medium none; 
+	color:#999999; 
+	float: left; 
+	font-size: 12px; 
+	height: 41px; 
+	line-height: 41px; 
+	padding: 11px; 
+	text-transform: uppercase; 
+	width: 478px;  
+	margin: 5px 0; 
+	border: solid; 
+	border-width:1px;
+	border-color:#999999;
+}
+
+#msgContainer {
+	width: 963px;
+	margin-top: 15px;
+	margin-left: 6px;
+	border: solid;
+	border-width: 1px;
+	float:left;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	display: inline;
+	border-color:#009900;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+	color:#009900;
+}
+
+
+#msgImage {
+	padding-left: 10px;
+	float:left;
+}
+
+#msgRetorno {
+	width: auto;
+	padding-left: 10px;
+	padding-top: 7px;
+	margin-top: auto;
+	float:left;
+	
+}
+
+#divEsquerdaMapa {
+	border-right:solid;
+    border-right-width: 1px;
+    border-color:#006699;
+}
+
+
+#tituloMapa {
+	padding-bottom: 5px;
+	border-bottom:solid 1px #006699;
+    color: #006699;
+	color: Black;
+    font-family: verdana,arial,sans serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+	width: 693px;
+}
+
+#map {
+	width: 693px; 
+	height: 400px; 
+	margin-right: 7px;
+	border-bottom:solid 1px #006699;
+	background-color: #454545;
+}
+
+.tituloDispositivosAmigos {
+	border-bottom:solid 1px #006699; 
+	padding-bottom:5px;
+    color: #006699;
+	padding-left: 12px;
+	margin-left: 7px;
+	width: 245px;
+	font-weight:bold;
+	text-align: right;
+	padding-right: 3px;
+}
+
+.conteudoDispositivosAmigos {
+	margin-left: 7px;
+	margin-top: 5px;
+	width: 260px;	
+}
+
+
+#textoExibindo {
+	color: #006699;
+	font-weight:bold;
+	padding-left: 5px;
+}
+
+.cabecalhoTabelaDispositivosAmigos {
+	color: black;
+    font-family: verdana,arial,sans serif;
+    font-size: 10px;
+    line-height: 16px;
+	font-weight:bold;
+}
+
+.linhaClaraTabelaDispositivosAmigos {
+	color: black;
+    font-family: verdana,arial,sans serif;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.linhaEscuraTabelaDispositivosAmigos {
+	color: black;
+    font-family: verdana,arial,sans serif;
+    font-size: 10px;
+    line-height: 16px;
+	background-color: #F0F2F4;
+}
+
+
+.divContainerLabeled {
+	float: left;	
+	display: inline;
+	
+}
+
+.divImagemLabeled {
+	float: left;
+    height: 23px;
+    padding: 6px 6px 0 0;
+	display: inline;
+}
+
+.textoLabeled {
+  	background: url("../follow/img/mobile_marker_t_bg.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    float: left;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 11px;
+    height: 23px;
+    line-height: 14px;
+    margin-left: 13px;
+	margin-top: -23px;
+    padding: 6px 3px 0 0;
+    text-shadow: 1px 1px 1px #000000;
+    white-space: nowrap;
+	display: inline;
+	
+}
+
+.divImagemLabeledDireita {
+	
+    float: right;
+    height: 23px;
+	margin-top: -28px;
+	margin-right:-13px;
+    padding: 6px 6px 0 0;
+	display: inline;
+}
+
+.infoBox {
+	background: url('blueinfowindow.png');
+	border: none;
+	position: absolute;
+	padding-left: 20px;
+	padding-top: 10px;
+} 
+
+
+.dethalesUsuario {
+	border-bottom:solid 1px #006699; 
+	padding-bottom:5px;
+    color: #006699;
+	width: 400px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+.tituloServicos {
+	border-bottom:solid 1px #006699; 
+	padding-bottom:5px;
+    color: #006699;
+	padding-left: 12px;
+	margin-left: 7px;
+	width: 245px;
+	font-weight:bold;
+	text-align: right;
+	padding-right: 3px;
+}
+
+.containerInformacoes {
+	width: 693px; 
+	height: 400px; 
+	margin-right: 7px;
+}
+
+p.usuario input { background:  url(../images/name.png) 8px 8px no-repeat; color:#999999; margin:auto;}
+
+.inputFormAdmin {
+	color: #000; 
+	display: block; 
+	font-size: 12px; 
+	height: 41px; 
+	margin: 5px 0; 
+	padding: 0 0 0 50px; 
+	width: 280px; 
+	border: solid; 
+	border-width:1px; 
+	border-color:#999999;
+	vertical-align:middle;
+	text-align:left;
+	
+}
